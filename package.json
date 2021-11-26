@@ -23,6 +23,6 @@
         }]
     },
     "activationEvents": [
-        "onLanguage:intuitive"
+        "workspaceContains:**/*.in"
     ]
 }
