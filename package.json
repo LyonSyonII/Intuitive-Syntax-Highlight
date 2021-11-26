@@ -1,0 +1,25 @@
+{
+    "name": "intuitive-syntax-highlight",
+    "displayName": "Intuitive Syntax Highlight",
+    "description": "Syntax highlight for the intuitive programming language.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.62.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "intuitive",
+            "aliases": ["Intuitive", "intuitive"],
+            "extensions": [".in"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "intuitive",
+            "scopeName": "source.in",
+            "path": "./syntaxes/intuitive.tmLanguage.json"
+        }]
+    }
+}
