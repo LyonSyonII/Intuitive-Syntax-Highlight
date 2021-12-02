@@ -18,7 +18,7 @@
 			"patterns": [
 			{
 				"name": "keyword.control.intuitive",
-				"match": "(\\b(if|while|for|si|llavors|then)\\b)|\\:"
+				"match": "(\\b(?i)(if|else|else if|while|for|pero|si no|si cap|si|llavors|then)\\b)|\\:"
 			},
 			{
 				"name": "constant.language.intuitive",
@@ -26,20 +26,20 @@
 
 			},
 			{
-				"name": "keyword.operator.assign.intuitive",
-				"match": "\\b(igual|equal)\\b"
+				"name": "keyword.operator",
+				"match": "\\b(\\=|\\+|\\-|\\*|\\/)\\b"
 			},
 			{
-				"name": "keyword.operator.intuitive",
-				"match": "\\b(mes|més|menys|per|entre)\\b"
+				"name": "keyword.operator.en",
+				"match": "\\b(equal|plus|minus|times|multiplied by|divided by|or|less|smaller|more|larger|equal|same)\\b"
 			},
 			{
 				"name": "entity.name.function",
-				"match": "\\b(?i)(imprimir|print)\\b"
+				"match": "\\b(?i)(imprimir|escriu|print|def|defineix|define)\\b"
 			},
 			{
 				"name": "comment.intuitive",
-				"match": "\\b(es|a|is|to)\\b"
+				"match": "\\b(es|és|a|que|than|is|to|compleix)\\b"
 			},
 			{
 				"name": "variable.name",

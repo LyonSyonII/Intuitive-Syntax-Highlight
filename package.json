@@ -21,8 +21,5 @@
             "scopeName": "source.in",
             "path": "./syntaxes/intuitive.tmLanguage.json"
         }]
-    },
-    "activationEvents": [
-        "workspaceContains:**/*.in"
-    ]
+    }
 }
